@@ -13,7 +13,7 @@ public class ServerController {
         return null;
     }
     @RequestMapping("/login")
-    @ResponseBody
+    @ResponseBody  checkout
     public String doSomelogin(){
         System.out.println("执行了login");
         return null;
